@@ -18,12 +18,15 @@ use Illuminate\Support\Facades\Route;
 //});
 
 
-Route::get('/home', function(){
-    return view("home");
+Route::get('/', function(){
+    return view("home",[
+        "tittle" => "Home"
+    ]);
 });
 
-Route::get('/about', function(){
+Route::get('/1', function(){
     return view ('about',[
+        "tittle" => 'About',
         "nama"=>"Nama : hamid sabirin",
         "kelas"=>"Kelas : XI RPL 4",
         "alamat"=>"Alamat : Kanding",
@@ -31,6 +34,8 @@ Route::get('/about', function(){
     ]);
 });
 
-Route::get('/gallery', function(){
-    return view('gallery');
+Route::get('/2', function(){
+    return view('gallery',[
+        "tittle" => 'Gallery'
+    ]);
 });
