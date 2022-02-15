@@ -6,11 +6,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link {{($title==='Home') ? 'active':''}}" aria-current="page" href="/">Home</a>
-        <a class="nav-link {{($title==='About') ? 'active':''}}"  href="/1">About</a>
-        <a class="nav-link {{($title==='Gallery') ? 'active':''}}"" href="/2">Gallery</a>
-        <a class="nav-link {{($title==='Contacts') ? 'active':''}}"" href="/contacts">Contats</a>
-
+        <li class="nav-item">
+          <a class="nav-link {{($title==='Home') ? 'active':''}}" aria-current="page" href="/">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link {{($title==='About') ? 'active':''}}"  href="/1">About</a></li>
+        <li class="nav-item">
+          <a class="nav-link {{($title==='Gallery') ? 'active':''}}"" href="/2">Gallery</a></li>
+        <li class="nav-item">
+          <a class="nav-link {{($title==='Contacts') ? 'active':''}}"" href="/contacts">Contats</a></li>
+      </div>
+      
+      <div class="navbar-nav ms-auto">
+        <ul class="nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('login')}}">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('register')}}">Regrister</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
