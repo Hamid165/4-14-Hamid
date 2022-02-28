@@ -13,7 +13,7 @@
         <li class="nav-item">
           <a class="nav-link {{($title==='Gallery') ? 'active':''}}"" href="/2">Gallery</a></li>
         <li class="nav-item">
-          <a class="nav-link {{($title==='Contacts') ? 'active':''}}"" href="/contacts">Contats</a></li>
+          <a class="nav-link {{($title==='Contacts') ? 'active':''}}"" href="{{ route('contacts.create') }}">Contats</a></li>
       </div>
       
       <div class="navbar-nav ms-auto">
