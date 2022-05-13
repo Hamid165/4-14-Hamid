@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="overview-wrap">
-                            <h2 class="title-1">Data Contacts Us</h2>
+                            <h2 class="title-1">Pesan Contact Us</h2>
                         </div>
                     </div>
                 </div>
@@ -49,5 +49,11 @@
                         <!-- END DATA TABLE-->
                     </div>
                 </div>
-    
+                <div class="mb-3">
+                    <label for="image" class="form-label">pilih gambar</label>
+                    <input class="form-control" type="file" id="image" name="image">
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-primary">Send</button>
+                  </div>
 @endsection
