@@ -15,14 +15,7 @@
                     <a href="{{ route('contacts.index') }}">
                         <i class="fas fa-chart-bar"></i>Pesan</a>
                 </li>
-                <li>
-                    <a href="/form">
-                        <i class="fas fa-table"></i>Form</a>
-                </li>
-                <li>
-                    <a href="/tables">
-                        <i class="far fa-check-square"></i>Tables</a>
-                </li>
+
             </ul>
         </nav>
     </div>
