@@ -49,11 +49,5 @@
                         <!-- END DATA TABLE-->
                     </div>
                 </div>
-                <div class="mb-3">
-                    <label for="image" class="form-label">pilih gambar</label>
-                    <input class="form-control" type="file" id="image" name="image">
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-primary">Send</button>
-                  </div>
+
 @endsection
